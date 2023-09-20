@@ -1,0 +1,12 @@
+D:\LAB1_CuongNVTSE160875\Utilities\bin\Debug\net7.0\Utilities.deps.json
+D:\LAB1_CuongNVTSE160875\Utilities\bin\Debug\net7.0\Utilities.dll
+D:\LAB1_CuongNVTSE160875\Utilities\bin\Debug\net7.0\Utilities.pdb
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.csproj.AssemblyReference.cache
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.AssemblyInfoInputs.cache
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.AssemblyInfo.cs
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.csproj.CoreCompileInputs.cache
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.dll
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\refint\Utilities.dll
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\Utilities.pdb
+D:\LAB1_CuongNVTSE160875\Utilities\obj\Debug\net7.0\ref\Utilities.dll

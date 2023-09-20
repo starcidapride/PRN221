@@ -1,0 +1,9 @@
+﻿<Window x:Class="LAB1_CuongNVTSE160875.AuthenticationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Login" Height="300" Width="400"
+        >
+    <Grid>
+        <Frame x:Name="MainFrame" />
+    </Grid>
+</Window>

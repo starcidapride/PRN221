@@ -1,0 +1,17 @@
+D:\LAB1_CuongNVTSE160875\DAO\bin\Debug\net7.0\DataAccessObjects.deps.json
+D:\LAB1_CuongNVTSE160875\DAO\bin\Debug\net7.0\DataAccessObjects.dll
+D:\LAB1_CuongNVTSE160875\DAO\bin\Debug\net7.0\DataAccessObjects.pdb
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.csproj.AssemblyReference.cache
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.GeneratedMSBuildEditorConfig.editorconfig
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.AssemblyInfoInputs.cache
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.AssemblyInfo.cs
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.csproj.CoreCompileInputs.cache
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.dll
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\refint\DataAccessObjects.dll
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.pdb
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\ref\DataAccessObjects.dll
+D:\LAB1_CuongNVTSE160875\DAO\bin\Debug\net7.0\DataAccessObjects.runtimeconfig.json
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.genruntimeconfig.cache
+D:\LAB1_CuongNVTSE160875\DAO\bin\Debug\net7.0\Utilities.dll
+D:\LAB1_CuongNVTSE160875\DAO\bin\Debug\net7.0\Utilities.pdb
+D:\LAB1_CuongNVTSE160875\DAO\obj\Debug\net7.0\DataAccessObjects.csproj.CopyComplete

@@ -7,10 +7,19 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="ManageCars\AddCarWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="AdministratorWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="ManageProfilePage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="CustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="NavigatorPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="ViewTransactionsPage.xaml.cs">
@@ -22,15 +31,45 @@
     <Compile Update="TransactionDetails.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="AddUpdateCustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="ManageRentingTransactions\ManageRentingTransactionsPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCustomers\AddCustomerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCustomers\ManageCustomersPage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCustomers\UpdateCustomerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCars\UpdateCarWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCars\AddCarWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AdministratorWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="AuthenticationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ManageCars\ManageCarsPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ManageProfilePage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="CustomerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="NavigatorPage.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ViewTransactionsPage.xaml">
@@ -40,6 +79,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="TransactionDetails.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="AddUpdateCustomerWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

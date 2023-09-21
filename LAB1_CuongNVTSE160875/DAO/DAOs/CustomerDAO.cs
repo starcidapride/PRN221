@@ -47,6 +47,15 @@ public class CustomerDAO
             && customer.Password == password);
     }
 
+    public List<Customer> GetCustomers()
+        => _context.Customers.ToList();
+
+    public List<Customer> GetCustomers(string searchValue)
+       => _context.Customers
+        .Where(customer => customer.CustomerName!.Contains(searchValue))
+        .ToList();
+
+
     public bool UpdateCustomer(Customer customer)
     {
         try
@@ -57,6 +66,50 @@ public class CustomerDAO
             return true;
 
         } catch (Exception ex)
+        {
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "WriteLines.txt"), true))
+            {
+                outputFile.WriteLine(ex.Message);
+            }
+            return false;
+        }
+    }
+
+    public bool AddCustomer(Customer customer)
+    {
+        try
+        {
+            _context.Customers.Add(customer);
+            _context.SaveChanges();
+            _context.ChangeTracker.Clear();
+            return true;
+
+        }
+        catch (Exception ex)
+        {
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "WriteLines.txt"), true))
+            {
+                outputFile.WriteLine(ex.Message);
+            }
+            return false;
+        }
+    }
+
+    public bool DeleteCustomer(Customer customer)
+    {
+        try
+        {
+            _context.Customers.Remove(customer);
+            _context.SaveChanges();
+            _context.ChangeTracker.Clear();
+            return true;
+
+        }
+        catch (Exception ex)
         {
             string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 

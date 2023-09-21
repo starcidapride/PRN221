@@ -1,5 +1,6 @@
 ﻿using BussinessObjects;
 using DataAccessObjects.Models;
+using LAB1_CuongNVTSE160875;
 using Newtonsoft.Json;
 using Repositories.CustomerRepository;
 using System;
@@ -92,6 +93,14 @@ namespace WPFView
         {
             var viewTransactionsPage = new ViewTransactionsPage(_customer);
             NavigationService.Navigate(viewTransactionsPage);
+        }
+
+        private void OnSignOut(object sender, RoutedEventArgs e)
+        {
+            var authenticationWindow = new AuthenticationWindow();
+            var window = Window.GetWindow(this);
+            authenticationWindow.Show();
+            window.Close();
         }
     }
 }

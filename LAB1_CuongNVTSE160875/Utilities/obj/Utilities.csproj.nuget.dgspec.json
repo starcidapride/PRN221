@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj": {}
+    "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj": {}
   },
   "projects": {
-    "D:\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj": {
+    "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj",
+        "projectUniqueName": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj",
         "projectName": "Utilities",
-        "projectPath": "D:\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj",
+        "projectPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj",
         "packagesPath": "C:\\Users\\tucuo\\.nuget\\packages\\",
-        "outputPath": "D:\\LAB1_CuongNVTSE160875\\Utilities\\obj\\",
+        "outputPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tucuo\\AppData\\Roaming\\NuGet\\NuGet.Config",

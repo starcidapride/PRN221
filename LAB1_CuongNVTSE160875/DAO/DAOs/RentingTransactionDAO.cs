@@ -1,13 +1,7 @@
 ﻿using DataAccessObjects.Models;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.EntityFrameworkCore;
-using System.Drawing.Printing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace DataAccessObjects.DAOs;
     public class RentingTransactionDAO
@@ -36,14 +30,56 @@ namespace DataAccessObjects.DAOs;
         }
     }
 
-    public List<RentingTransaction> GetRentingTransactions(int customerId, int pageNumber, int pageSize) =>
+    public List<RentingTransaction> GetRentingTransactions(int customerId) =>
         _context.RentingTransactions
         .Where(transaction => transaction.CustomerId == customerId)
-        .Skip((pageNumber - 1) * pageSize)
-        .Take(pageSize).ToList();
+        .ToList();
+    public List<RentingTransaction> GetRentingTransactions() =>
+    _context.RentingTransactions
+    .ToList();
 
-    public int GetRentingTransactionPages(int customerId, int pageSize) 
-        => _context.RentingTransactions.Where(transaction => transaction.CustomerId == customerId).Count() / pageSize + 1;
+    public List<RentingDetail> GetRentingDetails(DateTime startDate, DateTime endDate, bool startOrEnd)
+    {
+        var query = _context.RentingDetails.AsQueryable();
+
+        if (startOrEnd)
+        {
+            query = query.Where(details => details.StartDate >= startDate && details.StartDate <= endDate)
+                         .OrderByDescending(details => details.StartDate);
+        }
+        else
+        {
+            query = query.Where(details => details.EndDate >= startDate && details.EndDate <= endDate)
+                         .OrderByDescending(details => details.EndDate);
+        }
+
+        return query.ToList();
+    }
+
+    public bool DeleteRentingTransaction(RentingTransaction trans)
+    {
+        try
+        {
+            _context.Entry(trans).Collection(rt => rt.RentingDetails).Load();
+            _context.RentingDetails.RemoveRange(trans.RentingDetails);
+
+            _context.RentingTransactions.Remove(trans);
+            _context.SaveChanges();
+            _context.ChangeTracker.Clear();
+            return true;
+
+        }
+        catch (Exception ex)
+        {
+            string docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+
+            using (StreamWriter outputFile = new StreamWriter(Path.Combine(docPath, "WriteLines.txt"), true))
+            {
+                outputFile.WriteLine(ex.Message);
+            }
+            return false;
+        }
+    }
 
     public List<RentingDetail>? GetRentingDetails(int id)
     {

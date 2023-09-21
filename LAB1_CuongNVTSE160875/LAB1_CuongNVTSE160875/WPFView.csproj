@@ -18,6 +18,27 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="ManageRentingTransactions\ManageRentingTransactionsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageCustomers\AddCustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageCustomers\ManageCustomersPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageCustomers\UpdateCustomerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageCars\UpdateCarWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ManageCars\ManageCarsPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>

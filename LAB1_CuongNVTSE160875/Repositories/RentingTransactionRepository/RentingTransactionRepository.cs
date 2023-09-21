@@ -20,16 +20,6 @@ public class RentingTransactionRepository : IRentingTransactionRepository
         throw new NotImplementedException();
     }
 
-    public static List<RentingTransaction> GetMany(int customerId, int pageNumber, int pageSize)
-        => RentingTransactionDAO.Instance.GetRentingTransactions(customerId, pageNumber, pageSize);
-
-    public static List<RentingTransaction> GetMany(int pageNumber, int pageSize)
-    {
-        throw new NotImplementedException();
-    }
-
-    public static int GetPages(int customerId, int pageSize) => RentingTransactionDAO.Instance.GetRentingTransactionPages(customerId, pageSize);
-
     public static List<RentingDetail>? GetRentingDetails(int id) => RentingTransactionDAO.Instance.GetRentingDetails(id);
 
     public static bool Update(RentingTransaction entity)
@@ -42,7 +32,16 @@ public class RentingTransactionRepository : IRentingTransactionRepository
         throw new NotImplementedException();
     }
 
-    static List<RentingDetail>? IRentingTransactionRepository.GetMany(int customerId, int pageNumber, int pageSize)
+    public static List<RentingTransaction>? GetMany(int customerId)
+        => RentingTransactionDAO.Instance.GetRentingTransactions(customerId);
+
+    public static List<RentingTransaction> GetAll()
+        => RentingTransactionDAO.Instance.GetRentingTransactions();
+
+    public static bool Delete(RentingTransaction id)
+        => RentingTransactionDAO.Instance.DeleteRentingTransaction(id);
+
+    public static int GetPages(int customerId, int pageSize)
     {
         throw new NotImplementedException();
     }

@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPFView.UpdateCustomerWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:syncfusion="http://schemas.syncfusion.com/wpf"
+        xmlns:local="clr-namespace:WPFView"
+        mc:Ignorable="d"
+        Title="Update Customer" Height="500" Width="360">
+    <Grid>
+        
+        <StackPanel VerticalAlignment="Center">
+            <Label HorizontalAlignment="Center" Content="Update Customer" FontSize="30" Margin="0 0 0 20"/>
+            <StackPanel VerticalAlignment="Center">
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Id" Width="100" VerticalAlignment="Center"/>
+                    <TextBox IsEnabled = "false"  Name="Id" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Name" Width="100" VerticalAlignment="Center"/>
+                    <TextBox Name="Name" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Telephone" Width="100" VerticalAlignment="Center"/>
+                    <TextBox Name="Telephone" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Email" Width="100" VerticalAlignment="Center"/>
+                    <TextBox Name="Email" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Birthday" Width="100" VerticalAlignment="Center"/>
+                    <DatePicker Name="Birthday" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Status  " Width="100" VerticalAlignment="Center"/>
+                    <CheckBox  Name="Status" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <Label Content="Password" Width="100" VerticalAlignment="Center"/>
+                    <TextBox Name="Password" Width="150" VerticalAlignment="Center"/>
+                </StackPanel>
+            </StackPanel>
+            <Button Name ="UpdateButton" Click="OnUpdate" Content="Update" Width="250" Margin="0 10 0 0"/>
+        </StackPanel>
+    </Grid>
+</Window>

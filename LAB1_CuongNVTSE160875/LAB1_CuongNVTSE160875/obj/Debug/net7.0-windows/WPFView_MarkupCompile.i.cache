@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\LAB1_CuongNVTSE160875\LAB1_CuongNVTSE160875\obj\Debug\net7.0-windows\
+D:\PRN221\LAB1_CuongNVTSE160875\LAB1_CuongNVTSE160875\obj\Debug\net7.0-windows\
 WPFView
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-D:\LAB1_CuongNVTSE160875\LAB1_CuongNVTSE160875\App.xaml
-6866532517
+D:\PRN221\LAB1_CuongNVTSE160875\LAB1_CuongNVTSE160875\App.xaml
+16-252259316
 
-10-325092800
-253934615616
-AuthenticationWindow.xaml;CustomerWindow.xaml;ManageProfilePage.xaml;SignInPage.xaml;TransactionDetails.xaml;ViewTransactionsPage.xaml;
+20-421501389
+257994737112
+AddUpdateCustomerWindow.xaml;AdministratorWindow.xaml;AuthenticationWindow.xaml;CustomerWindow.xaml;ManageCars\AddCarWindow.xaml;ManageCars\ManageCarsPage.xaml;ManageCars\UpdateCarWindow.xaml;ManageCustomers\AddCustomerWindow.xaml;ManageCustomers\ManageCustomersPage.xaml;ManageCustomers\UpdateCustomerWindow.xaml;ManageProfilePage.xaml;ManageRentingTransactions\ManageRentingTransactionsPage.xaml;NavigatorPage.xaml;SignInPage.xaml;TransactionDetails.xaml;ViewTransactionsPage.xaml;
 
 True
 

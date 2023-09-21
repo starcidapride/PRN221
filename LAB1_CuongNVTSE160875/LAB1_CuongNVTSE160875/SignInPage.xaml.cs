@@ -43,6 +43,16 @@ namespace WPFView
 
                 var parentWindow = Window.GetWindow(this);
                 parentWindow.Close();
+            } else if (result.Role == AccountRole.Administrator)
+            {
+                var adminWindow = new AdministratorWindow();
+                adminWindow.Show();
+
+                var parentWindow = Window.GetWindow(this);
+                parentWindow.Close();
+            } else
+            {
+                MessageBox.Show("Wrong email or password.");
             }
         }
             

@@ -3722,11 +3722,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj",
+      "projectUniqueName": "D:\\PRN221\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj",
       "projectName": "DataAccessObjects",
-      "projectPath": "D:\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj",
+      "projectPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj",
       "packagesPath": "C:\\Users\\tucuo\\.nuget\\packages\\",
-      "outputPath": "D:\\LAB1_CuongNVTSE160875\\DAO\\obj\\",
+      "outputPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\DAO\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tucuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3743,8 +3743,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj": {
-              "projectPath": "D:\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj"
+            "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj": {
+              "projectPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Utilities\\Utilities.csproj"
             }
           }
         }

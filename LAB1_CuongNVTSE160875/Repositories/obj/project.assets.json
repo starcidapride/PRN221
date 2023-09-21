@@ -3560,11 +3560,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LAB1_CuongNVTSE160875\\Repositories\\Repositories.csproj",
+      "projectUniqueName": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Repositories\\Repositories.csproj",
       "projectName": "Repositories",
-      "projectPath": "D:\\LAB1_CuongNVTSE160875\\Repositories\\Repositories.csproj",
+      "projectPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Repositories\\Repositories.csproj",
       "packagesPath": "C:\\Users\\tucuo\\.nuget\\packages\\",
-      "outputPath": "D:\\LAB1_CuongNVTSE160875\\Repositories\\obj\\",
+      "outputPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\Repositories\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tucuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3581,8 +3581,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj": {
-              "projectPath": "D:\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj"
+            "D:\\PRN221\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj": {
+              "projectPath": "D:\\PRN221\\LAB1_CuongNVTSE160875\\DAO\\DataAccessObjects.csproj"
             }
           }
         }
